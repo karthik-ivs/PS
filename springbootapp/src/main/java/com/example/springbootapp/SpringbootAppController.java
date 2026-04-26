@@ -14,12 +14,12 @@ public class SpringbootAppController {
     }
 
     @GetMapping("/react")
-    public String project() {
+    public String react() {
         return "We need to create one React project";
     }
 
     @GetMapping("/springboot")
-    public String greet() {
+    public String springboot() {
         return "We need to create a Springboot project";
     }
 }
